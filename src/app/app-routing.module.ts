@@ -8,10 +8,6 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
 ];
 
-const appRoutes: Routes = [
-
-]
-
 @NgModule({
   imports: [RouterModule.forRoot(routes, { enableTracing: true })],
   exports: [RouterModule]
